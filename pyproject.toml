@@ -1,0 +1,24 @@
+[project]
+name = "travel_assistant"
+version = "0.1.0"
+description = "travel_assistant using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.108.0,<1.0.0",
+    "streamlit>=1.44.1",
+]
+
+[project.scripts]
+travel_assistant = "travel_assistant.main:run"
+run_crew = "travel_assistant.main:run"
+train = "travel_assistant.main:train"
+replay = "travel_assistant.main:replay"
+test = "travel_assistant.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

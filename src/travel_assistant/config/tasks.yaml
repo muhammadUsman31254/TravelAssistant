@@ -1,0 +1,54 @@
+# src/travel_assistant/config/tasks.yaml
+destination_research_task:
+  description: >
+    Research {destination} thoroughly to identify top attractions, activities, and experiences
+    worth visiting during a trip from {departure_date} to {return_date} for {num_travelers} traveler(s).
+    Consider the season, local weather, and budget of ${budget} for the entire trip.
+    Identify a mix of popular tourist attractions and local hidden gems.
+    Note any special events, festivals, or seasonal activities occurring during the travel dates.
+    Consider the most efficient ways to get around the destination.
+  expected_output: >
+    A comprehensive list of recommended attractions and activities in {destination},
+    categorized by type (historical sites, nature, food, entertainment, etc.),
+    with estimated costs, recommended visit duration, and best times to visit.
+  agent: travel_researcher
+
+itinerary_creation_task:
+  description: >
+    Create a detailed day-by-day itinerary for a trip to {destination}
+    for {num_travelers} traveler(s) with a budget of ${budget}.
+    The trip starts on {departure_date} and ends on {return_date}.
+    Use the research provided to organize activities in a logical sequence, considering:
+    - Geographic proximity of attractions to minimize travel time
+    - A balanced mix of activities (cultural, relaxation, adventure, cuisine)
+    - Realistic timing (including travel between sites, meals, and rest)
+    - Budget constraints (total daily spending should be tracked)
+    - Free time for spontaneous exploration
+    Include recommended meal options (breakfast, lunch, dinner) for each day, noting any must-try local foods.
+  expected_output: >
+    A detailed day-by-day itinerary in markdown format, including:
+    - Daily overview with main highlights
+    - Chronological schedule with timings
+    - Estimated costs for activities, meals, and transportation
+    - Local transportation recommendations
+    - Tips for each activity or location
+    - Total daily budget breakdown
+  agent: itinerary_planner
+  context:
+    - destination_research_task
+  output_file: itinerary.md
+
+weather_forecast_task:
+  description: >
+    Research and provide a detailed weather forecast for {destination} from {departure_date} to {return_date}.
+    Use the OpenWeatherMap API to retrieve accurate weather data. Include:
+    - Daily temperature ranges (high/low)
+    - Precipitation chances
+    - Weather conditions (sunny, cloudy, rainy, etc.)
+    - Any weather warnings or special conditions
+    Also provide packing recommendations based on the forecasted weather.
+  expected_output: >
+    A comprehensive weather forecast in markdown format, organized by date,
+    with daily weather conditions and practical packing recommendations.
+  agent: weather_forecaster
+  output_file: weather.md
