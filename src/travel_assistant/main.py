@@ -1,12 +1,13 @@
 # src/travel_assistant/main.py
+import os
+import warnings
+import traceback
+from dotenv import load_dotenv
 import streamlit as st
 from travel_assistant.crew import TravelAssistantCrew
-import os
-import traceback
-import warnings
-from dotenv import load_dotenv
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
+
 # Load environment variables
 load_dotenv()
 
@@ -85,7 +86,7 @@ def main():
                     'destination': destination,
                     'departure_date': departure_date.strftime('%Y-%m-%d'),
                     'return_date': return_date.strftime('%Y-%m-%d'),
-                    'trip_duration': trip_duration,  # Add the calculated trip duration
+                    'trip_duration': trip_duration,  
                     'budget': budget,
                     'num_travelers': num_travelers
                 }

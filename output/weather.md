@@ -1,37 +1,38 @@
-# Weather Forecast for Istanbul
+# Murree Trip Weather Forecast
+## Weather Forecast for Murree
 
-## Friday, April 04
+### Friday, April 04
 
-**Temperature**: 13.5°C to 14.6°C
+**Temperature**: 12.8°C to 12.8°C
 
-**Conditions**: few clouds
+**Conditions**: broken clouds
 
-**Humidity**: 58%
+**Humidity**: 38%
 
-**Wind**: 4.78 m/s
+**Wind**: 4.35 m/s
 
-## Saturday, April 05
+### Saturday, April 05
 
-**Temperature**: 10.7°C to 11.6°C
+**Temperature**: 11.9°C to 12.5°C
 
-**Conditions**: few clouds
+**Conditions**: broken clouds
 
-**Humidity**: 72%
+**Humidity**: 37%
 
-**Wind**: 2.23 m/s
+**Wind**: 4.81 m/s
 
-## Sunday, April 06
+### Sunday, April 06
 
-**Temperature**: 11.5°C to 11.5°C
+**Temperature**: 13.7°C to 13.7°C
 
-**Conditions**: clear sky
+**Conditions**: overcast clouds
 
-**Humidity**: 77%
+**Humidity**: 26%
 
-**Wind**: 2.33 m/s
+**Wind**: 4.77 m/s
 
 ## Packing Recommendations
 
-- Pack warm clothing and layers
-- A jacket will be necessary
-- Bring an umbrella or raincoat
+- Pack light layers for variable temperatures
+- A light jacket might be needed
+- Bring an umbrella for potential rain
