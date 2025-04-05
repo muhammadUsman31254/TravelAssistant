@@ -46,7 +46,6 @@ def main():
 
     # Display welcome message if planning hasn't started
     if not st.session_state.planning_started:
-        st.markdown('<h3>👋 Welcome to the AI Travel Assistant!</h3>', unsafe_allow_html=True)
         st.markdown('### 🌟 What Our Assistant Can Do For You!')
         col1, col2, col3, col4 = st.columns(4)
 
@@ -98,12 +97,22 @@ def main():
                 if os.path.exists('output/itinerary.md'):
                     with open('output/itinerary.md', 'r') as f:
                         st.session_state.itinerary = f.read()
-                    st.success("✅ Itinerary successfully generated!")
+                    st.success("✅ Itinerary Planning!")
 
                 if os.path.exists('output/weather.md'):
                     with open('output/weather.md', 'r') as f:
                         st.session_state.weather = f.read()
-                    st.success("✅ Weather forecast successfully generated!")
+                    st.success("✅ Weather forecast!")
+                
+                if os.path.exists('output/flights.md'):
+                    with open('output/flights.md', 'r') as f:
+                        st.session_state.flights = f.read()
+                    st.success("✅ Flight options!")
+                
+                if os.path.exists('output/hotels.md'):
+                    with open('output/hotels.md', 'r') as f:
+                        st.session_state.hotels = f.read()
+                    st.success("✅ Hotel options!")
 
             except Exception as e:
                 error_details = traceback.format_exc()
@@ -126,11 +135,11 @@ def main():
 
         with tab3:
             st.subheader("✈️ Best Flight Options")
-            st.info("Flight options functionality will be implemented in the future.")
+            st.markdown(st.session_state.flights)
 
         with tab4:
             st.subheader("🏨 Recommended Hotels")
-            st.info("Hotel recommendations functionality will be implemented in the future.")
+            st.markdown(st.session_state.hotels)
 
 if __name__ == "__main__":
     main()

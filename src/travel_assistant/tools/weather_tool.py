@@ -1,5 +1,4 @@
 # src/travel_assistant/tools/weather_tool.py
-
 from crewai.tools import BaseTool
 from typing import Type, Optional
 from pydantic import BaseModel, Field

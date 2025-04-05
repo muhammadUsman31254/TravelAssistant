@@ -52,3 +52,42 @@ weather_forecast_task:
     with daily weather conditions and practical packing recommendations.
   agent: weather_forecaster
   output_file: weather.md
+
+flight_search_task:
+  description: >
+    Search for flight options from {origin} to {destination} for {num_travelers} traveler(s)
+    departing on {departure_date} and returning on {return_date}. Focus on:
+    - Best value flights (balancing price and convenience)
+    - Reasonable departure and arrival times
+    - Minimizing layovers and total travel time
+    - Appropriate baggage allowances for trip duration
+    - Options from different airlines for comparison
+  expected_output: >
+    A detailed flight options report in markdown format, including:
+    - Best flight options ranked by value
+    - Key flight details (airline, times, duration, layovers)
+    - Total price and price per person
+    - Booking recommendations with pros and cons of each option
+  agent: flight_finder
+  output_file: flights.md
+
+hotel_search_task:
+  description: >
+    Find accommodation options in {destination} for {num_travelers} traveler(s)
+    staying from {departure_date} to {return_date} within a total trip budget of ${budget}.
+    Consider approximately 30% of the total budget for accommodation.
+    Focus on:
+    - Location (proximity to main attractions or city center)
+    - Value for money
+    - Good reviews and ratings
+    - Appropriate room types for the number of travelers
+    - Necessary amenities (WiFi, breakfast options, etc.)
+  expected_output: >
+    A detailed accommodation report in markdown format, including:
+    - Top hotel recommendations ranked by value
+    - Key details (location, price, room types, amenities)
+    - Guest ratings and review highlights
+    - Pros and cons of each option
+    - Booking recommendations
+  agent: hotel_finder
+  output_file: hotels.md
