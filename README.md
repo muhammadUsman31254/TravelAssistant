@@ -2,6 +2,8 @@
 
 Welcome to the **AI Travel Assistant**, powered by [crewAI](https://crewai.com)!  
 
+![AI Travel Assistant](https://github.com/muhammadUsman31254/TravelAssistant/blob/main/Capture.PNG)
+
 This intelligent application helps users plan their trips with ease by utilizing a collaborative, multi-agent AI system. It provides detailed **itineraries**, **weather forecasts**, **flight options**, and **hotel recommendations**—all automated and efficient.
 
 ## 🚀 Features
