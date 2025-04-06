@@ -1,54 +1,110 @@
-# TravelAssistant Crew
+# ✈️ AI Travel Assistant
 
-Welcome to the TravelAssistant Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the **AI Travel Assistant**, powered by [crewAI](https://crewai.com)!  
 
-## Installation
+This intelligent application helps users plan their trips with ease by utilizing a collaborative, multi-agent AI system. It provides detailed **itineraries**, **weather forecasts**, **flight options**, and **hotel recommendations**—all automated and efficient.
 
-Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+## 🚀 Features
 
-First, if you haven't already, install uv:
+- 🗺️ Tailored trip itineraries
+- 🌤️ Accurate destination weather forecasts
+- ✈️ Optimal flight suggestions
+- 🏨 Curated hotel recommendations
 
-```bash
-pip install uv
-```
+## 📦 Installation
 
-Next, navigate to your project directory and install the dependencies:
+### Requirements
+- Python `>=3.10, <3.13`
+- [UV](https://docs.astral.sh/uv/) for package management
 
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
-### Customizing
+### Setup Steps
+1. **Install `uv`** (if not already installed):
+   ```bash
+   pip install uv
+   ```
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+2. **Install dependencies**:
+   Navigate to your project directory:
+   ```bash
+   crewai install
+   ```
 
-- Modify `src/travel_assistant/config/agents.yaml` to define your agents
-- Modify `src/travel_assistant/config/tasks.yaml` to define your tasks
-- Modify `src/travel_assistant/crew.py` to add your own logic, tools and specific args
-- Modify `src/travel_assistant/main.py` to add custom inputs for your agents and tasks
+## 🔧 Configuration
 
-## Running the Project
+**Add your API_KEYS into the `.env` file**
+- CEREBRAS_API_KEY=your_key_here
+- OPENWEATHER_API_KEY=your_key_here
+- FLIGHT_API_KEY=your_key_here
+- FLIGHT_API_SECRET=your_key_here
+  
+### Customize Configurations
+- Agents: src/travel_assistant/config/agents.yaml
+- Tasks: src/travel_assistant/config/tasks.yaml
 
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+### Modify Logic (Optional)
+- Core Logic: src/travel_assistant/crew.py
+- Custom Inputs: src/travel_assistant/main.py
 
+## ▶️ Running the Project
+
+From the root directory, launch the assistant:
 ```bash
 $ crewai run
 ```
 
-This command initializes the travel_assistant Crew, assembling the agents and assigning them tasks as defined in your configuration.
+This command initializes your AI crew, assigns them tasks, and generates output files in the output/ directory:
+- itinerary.md
+- weather.md
+- flights.md
+- hotels.md
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+## 🗂️ Project Structure
 
-## Understanding Your Crew
+```
+travel_assistant/
+├── src/
+│   ├── travel_assistant/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── crew.py
+│   │   ├── chat_assistant.py
+│   │   ├── config/
+│   │   │   ├── agents.yaml
+│   │   │   ├── tasks.yaml
+│   │   ├── tools/
+│   │   │   ├── __init__.py
+│   │   │   ├── weather_tool.py
+│   │   │   ├── flight_tool.py
+│   │   │   ├── hotel_tool.py
+├── output/
+│   ├── itinerary.md
+│   ├── weather.md
+│   ├── flights.md
+│   ├── hotels.md
+├── .env
+├── requirements.txt
+```
 
-The travel_assistant Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+## 🧠 Understanding Your Crew
 
-## Support
+The AI Travel Assistant is powered by specialized agents, each contributing their unique skillset to the trip planning process.
 
-For support, questions, or feedback regarding the TravelAssistant Crew or crewAI.
+### 👥 Agents
+
+| Agent | Role |
+|-------|------|
+| Travel Researcher | Discovers top attractions and activities at the destination |
+| Itinerary Planner | Builds a day-by-day plan for the trip |
+| Weather Forecaster | Provides weather data for the selected dates and location |
+| Flight Finder | Finds optimal flights based on user inputs |
+| Hotel Finder | Recommends hotels based on budget and preferences |
+
+Agents and their tasks are defined in the `config/agents.yaml` and `config/tasks.yaml` config files, and orchestrated via the `crew.py` file.
+
+## 📚 Support
+
+For support, questions, or feedback regarding the TravelAssistant Crew or crewAI:
 - Visit our [documentation](https://docs.crewai.com)
 - Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
 
-Let's create wonders together with the power and simplicity of crewAI.
+Let's build something amazing together with the power of crewAI.
