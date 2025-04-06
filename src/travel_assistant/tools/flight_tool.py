@@ -4,7 +4,6 @@ from typing import Type, Optional
 from pydantic import BaseModel, Field
 import requests
 import os
-from datetime import datetime
 
 class FlightToolInput(BaseModel):
     origin: str = Field(..., description="Origin airport code or city.")

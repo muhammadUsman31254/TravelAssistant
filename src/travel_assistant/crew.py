@@ -4,7 +4,7 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai_tools import SerperDevTool
 from travel_assistant.tools.weather_tool import OpenWeatherMapTool
 from travel_assistant.tools.flight_tool import FlightSearchTool
-from travel_assistant.tools.hotel_tool import HotelSearchTool
+# from travel_assistant.tools.hotel_tool import HotelSearchTool
 
 @CrewBase
 class TravelAssistantCrew():
@@ -68,7 +68,7 @@ class TravelAssistantCrew():
         return Agent(
             config=self.agents_config['hotel_finder'],
             verbose=True,
-            tools=[HotelSearchTool()],
+            # tools=[HotelSearchTool()],
             llm = LLM(
                 model="cerebras/llama3.3-70b",
                 temperature=0.6,
@@ -86,28 +86,28 @@ class TravelAssistantCrew():
     def itinerary_creation_task(self) -> Task:
         return Task(
             config=self.tasks_config['itinerary_creation_task'],
-            output_file='output/itinerary.md'  # This will contain the final itinerary
+            output_file='output/itinerary.md'  
         )
     
     @task
     def weather_forecast_task(self) -> Task:
         return Task(
             config=self.tasks_config['weather_forecast_task'],
-            output_file='output/weather.md'  # This will contain the weather forecast
+            output_file='output/weather.md'  
         )
     
     @task
     def flight_search_task(self) -> Task:
         return Task(
             config=self.tasks_config['flight_search_task'],
-            output_file='output/flights.md'  # This will contain flight options
+            output_file='output/flights.md'  
         )
     
     @task
     def hotel_search_task(self) -> Task:
         return Task(
             config=self.tasks_config['hotel_search_task'],
-            output_file='output/hotels.md'  # This will contain hotel options
+            output_file='output/hotels.md'  
         )
 
     @crew

@@ -50,7 +50,6 @@ class OpenWeatherMapTool(BaseTool):
         # Format the data into a simple response
         result = f"# Weather Forecast for {location_data['name']}\n\n"
         
-        # Process forecast data (5 days with 3-hour intervals)
         processed_days = set()
         
         for item in forecast_data['list']:
@@ -68,32 +67,9 @@ class OpenWeatherMapTool(BaseTool):
             result += f"## {dt.strftime('%A, %B %d')}\n\n"
             result += f"**Temperature**: {item['main']['temp_min']:.1f}°C to {item['main']['temp_max']:.1f}°C\n\n"
             result += f"**Conditions**: {item['weather'][0]['description']}\n\n"
-            result += f"**Humidity**: {item['main']['humidity']}%\n\n"
-            result += f"**Wind**: {item['wind']['speed']} m/s\n\n"
             
-            # Stop after processing 5 days (or fewer if that's all we have)
+            # Stop after processing 5 days 
             if len(processed_days) >= 5:
                 break
-        
-        # Add basic packing recommendations
-        result += "## Packing Recommendations\n\n"
-        
-        # Get average temperature to determine recommendations
-        avg_temp = sum(item['main']['temp'] for item in forecast_data['list'][:8]) / min(8, len(forecast_data['list']))
-        
-        # Simple recommendations based on temperature
-        if avg_temp > 25:
-            result += "- Pack light summer clothing\n- Don't forget sunscreen and sunglasses\n"
-        elif avg_temp > 15:
-            result += "- Pack light layers for variable temperatures\n- A light jacket might be needed\n"
-        elif avg_temp > 5:
-            result += "- Pack warm clothing and layers\n- A jacket will be necessary\n"
-        else:
-            result += "- Pack heavy winter clothing\n- Don't forget hat, gloves and scarf\n"
-        
-        # Check for rain
-        has_rain = any("rain" in item['weather'][0]['description'].lower() for item in forecast_data['list'][:8])
-        if has_rain:
-            result += "- Bring an umbrella or raincoat\n"
         
         return result

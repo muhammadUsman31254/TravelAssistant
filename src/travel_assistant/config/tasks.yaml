@@ -28,7 +28,7 @@ itinerary_creation_task:
   expected_output: >
     A detailed day-by-day itinerary in markdown format, including:
     - Daily overview with main highlights
-    - Chronological schedule with timings
+    - Chronological schedule
     - Estimated costs for activities, meals, and transportation
     - Local transportation recommendations
     - Tips for each activity or location
@@ -41,9 +41,8 @@ itinerary_creation_task:
 weather_forecast_task:
   description: >
     Research and provide a detailed weather forecast for {destination} from {departure_date} to {return_date}.
-    Use the OpenWeatherMap API to retrieve accurate weather data. Include:
+    Retrieve accurate weather data. Include:
     - Daily temperature ranges (high/low)
-    - Precipitation chances
     - Weather conditions (sunny, cloudy, rainy, etc.)
     - Any weather warnings or special conditions
     Also provide packing recommendations based on the forecasted weather.
@@ -56,11 +55,11 @@ weather_forecast_task:
 flight_search_task:
   description: >
     Search for flight options from {origin} to {destination} for {num_travelers} traveler(s)
-    departing on {departure_date} and returning on {return_date}. Focus on:
+    departing on {departure_date} and returning on {return_date}. 
+    Focus on:
     - Best value flights (balancing price and convenience)
     - Reasonable departure and arrival times
     - Minimizing layovers and total travel time
-    - Appropriate baggage allowances for trip duration
     - Options from different airlines for comparison
   expected_output: >
     A detailed flight options report in markdown format, including:
@@ -75,13 +74,12 @@ hotel_search_task:
   description: >
     Find accommodation options in {destination} for {num_travelers} traveler(s)
     staying from {departure_date} to {return_date} within a total trip budget of ${budget}.
-    Consider approximately 30% of the total budget for accommodation.
     Focus on:
     - Location (proximity to main attractions or city center)
     - Value for money
     - Good reviews and ratings
     - Appropriate room types for the number of travelers
-    - Necessary amenities (WiFi, breakfast options, etc.)
+    - Necessary amenities (WiFi etc.)
   expected_output: >
     A detailed accommodation report in markdown format, including:
     - Top hotel recommendations ranked by value
