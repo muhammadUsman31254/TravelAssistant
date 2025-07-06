@@ -6,7 +6,7 @@ from typing import Dict, Any
 class ChatAssistant:
     """
     Chat assistant that can answer questions about a planned trip
-    using the Cerebras API for LLM responses.
+    using the GROQ API for LLM responses.
     """
     
     def __init__(self, trip_data: Dict[str, Any] = None):
