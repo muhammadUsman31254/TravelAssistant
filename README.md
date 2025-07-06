@@ -34,7 +34,7 @@ This intelligent application helps users plan their trips with ease by utilizing
 ## 🔧 Configuration
 
 **Add your API_KEYS into the `.env` file**
-- CEREBRAS_API_KEY=your_key_here
+- GROQ_API_KEY=your_key_here
 - OPENWEATHER_API_KEY=your_key_here
 - FLIGHT_API_KEY=your_key_here
 - FLIGHT_API_SECRET=your_key_here
