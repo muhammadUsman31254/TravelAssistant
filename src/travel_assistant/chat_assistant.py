@@ -18,7 +18,7 @@ class ChatAssistant:
         """
         self.trip_data = trip_data or {}
         self.client = Cerebras(
-            api_key=os.environ.get("CEREBRAS_API_KEY"),
+            api_key=os.environ.get("GROQ_API_KEY"),
         )
         self.chat_history = []
 
@@ -98,7 +98,7 @@ Answer the user's questions about their trip based on this information. If you d
         try:
             chat_completion = self.client.chat.completions.create(
                 messages=messages,
-                model="llama3.3-70b",  # Using the same model as the agents
+                model="meta-llama/llama-4-scout-17b-16e-instruct",  # Using the same model as the agents
                 temperature=0.7,
                 max_tokens=1024
             )
