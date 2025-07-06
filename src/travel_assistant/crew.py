@@ -18,7 +18,7 @@ class TravelAssistantCrew():
             verbose=True,
             tools=[SerperDevTool()],
             llm = LLM(
-                model="cerebras/llama3.3-70b",
+                model="groq/meta-llama/llama-4-scout-17b-16e-instruct",
                 temperature=0.7,
                 max_tokens=10000
             )
@@ -31,7 +31,7 @@ class TravelAssistantCrew():
             verbose=True,
             tools=[SerperDevTool()],
             llm = LLM(
-                model="cerebras/llama3.3-70b",
+                model="groq/meta-llama/llama-4-scout-17b-16e-instruct",
                 temperature=0.7,
                 max_tokens=10000
             )
@@ -44,7 +44,7 @@ class TravelAssistantCrew():
             verbose=True,
             tools=[OpenWeatherMapTool()],
             llm = LLM(
-                model="cerebras/llama3.3-70b",
+                model="groq/meta-llama/llama-4-scout-17b-16e-instruct",
                 temperature=0.5,
                 max_tokens=10000
             )
@@ -57,7 +57,7 @@ class TravelAssistantCrew():
             verbose=True,
             tools=[FlightSearchTool()],
             llm = LLM(
-                model="cerebras/llama3.3-70b",
+                model="groq/meta-llama/llama-4-scout-17b-16e-instruct",
                 temperature=0.6,
                 max_tokens=10000
             )
@@ -70,7 +70,7 @@ class TravelAssistantCrew():
             verbose=True,
             # tools=[HotelSearchTool()],
             llm = LLM(
-                model="cerebras/llama3.3-70b",
+                model="groq/meta-llama/llama-4-scout-17b-16e-instruct",
                 temperature=0.6,
                 max_tokens=10000
             )
