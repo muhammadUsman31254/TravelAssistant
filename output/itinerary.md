@@ -1,101 +1,45 @@
-# Day 1: Historical Peninsula
-## Daily Overview
-Explore the historical peninsula, including Hagia Sophia, Blue Mosque, and Basilica Cistern.
-## Chronological Schedule
-* 9:00 AM: Start the day at Hagia Sophia (2000 TL per person)
-* 11:00 AM: Visit the Blue Mosque (free admission)
-* 12:30 PM: Lunch at a local restaurant (100 TL per person)
-* 2:00 PM: Explore the Basilica Cistern (200 TL per person)
-* 4:00 PM: Walk around the Sultanahmet Square and visit the German Fountain (free admission)
-* 7:00 PM: Dinner at a local restaurant (150 TL per person)
-## Estimated Costs
-* Hagia Sophia: 2000 TL per person
-* Blue Mosque: free admission
-* Basilica Cistern: 200 TL per person
-* Lunch: 100 TL per person
-* Dinner: 150 TL per person
-* Total: 2450 TL per person
-## Local Transportation Recommendations
-* Use the Istanbul Metro to get to the historical peninsula (10 TL per ride)
-* Walk around the historical peninsula to explore the sites
-## Tips
-* Wear modest clothing when visiting the Blue Mosque
-* Bring a water bottle and stay hydrated during the day
+### Day 1: Arrival and Exploration of Sultanahmet
+* Morning: Arrive in Istanbul and check-in to your hotel. Visit the nearby **Hagia Sophia** (40 TRY per person), a former Byzantine church, Ottoman mosque, and now a museum.
+* Afternoon: Explore the **Blue Mosque** (free admission) and the **Basilica Cistern** (20 TRY per person).
+* Evening: Enjoy a traditional Turkish dinner at a local restaurant, such as **Roof Mezze 360** or **Tuğra Restaurant**.
+* Transportation: Use the Istanbul Metro (8 TRY per person) to travel between attractions.
+* Tips: Be respectful of dress codes and prayer times when visiting mosques.
+* Budget Breakdown:
+	+ Accommodation: $375 (avg. $375 per night for 4 nights)
+	+ Food: $100 (avg. $25 per meal for 4 meals)
+	+ Transportation: $16 (avg. $4 per ride for 4 rides)
+	+ Attractions: $60 (avg. $15 per person for 4 attractions)
+	+ Miscellaneous: $50 (avg. $12.50 per person for souvenirs and incidentals)
+	Total: $601
 
-# Day 2: Topkapi Palace and Bazaars
-## Daily Overview
-Explore Topkapi Palace and the Grand Bazaar.
-## Chronological Schedule
-* 9:00 AM: Start the day at Topkapi Palace (2000 TL per person)
-* 12:00 PM: Lunch at a local restaurant (100 TL per person)
-* 1:30 PM: Explore the Grand Bazaar (free admission)
-* 4:00 PM: Visit the Spice Bazaar (free admission)
-* 6:00 PM: Dinner at a local restaurant (150 TL per person)
-## Estimated Costs
-* Topkapi Palace: 2000 TL per person
-* Lunch: 100 TL per person
-* Grand Bazaar: free admission
-* Spice Bazaar: free admission
-* Dinner: 150 TL per person
-* Total: 2250 TL per person
-## Local Transportation Recommendations
-* Use the Istanbul Metro to get to Topkapi Palace (10 TL per ride)
-* Walk around the bazaars to explore the sites
-## Tips
-* Wear comfortable shoes when exploring the bazaars
-* Bring a map to navigate the Grand Bazaar
+### Day 2: Topkapi Palace and Grand Bazaar
+* Morning: Visit **Topkapi Palace** (40 TRY per person), the primary residence of the Ottoman sultans for over 400 years.
+* Afternoon: Explore the **Grand Bazaar** (free admission), one of the oldest and largest covered markets in the world.
+* Evening: Enjoy a dinner of traditional Turkish cuisine, such as **doner kebab** or **lahmacun**.
+* Transportation: Use the Istanbul Tram (8 TRY per person) to travel between attractions.
+* Tips: Be prepared to haggle when shopping at the Grand Bazaar.
+* Budget Breakdown:
+	+ Accommodation: $375 (avg. $375 per night for 4 nights)
+	+ Food: $100 (avg. $25 per meal for 4 meals)
+	+ Transportation: $16 (avg. $4 per ride for 4 rides)
+	+ Attractions: $40 (avg. $10 per person for 4 attractions)
+	+ Miscellaneous: $50 (avg. $12.50 per person for souvenirs and incidentals)
+	Total: $581
 
-# Day 3: Galata Tower and Karaköy
-## Daily Overview
-Explore Galata Tower and the Karaköy neighborhood.
-## Chronological Schedule
-* 9:00 AM: Start the day at Galata Tower (200 TL per person)
-* 11:00 AM: Explore the Karaköy neighborhood (free admission)
-* 1:00 PM: Lunch at a local restaurant (100 TL per person)
-* 2:30 PM: Visit the Istanbul Modern art museum (100 TL per person)
-* 5:00 PM: Walk along the Bosphorus Strait (free admission)
-* 7:30 PM: Dinner at a local restaurant (150 TL per person)
-## Estimated Costs
-* Galata Tower: 200 TL per person
-* Karaköy neighborhood: free admission
-* Lunch: 100 TL per person
-* Istanbul Modern art museum: 100 TL per person
-* Dinner: 150 TL per person
-* Total: 1650 TL per person
-## Local Transportation Recommendations
-* Use the Istanbul Metro to get to Galata Tower (10 TL per ride)
-* Walk around the Karaköy neighborhood to explore the sites
-## Tips
-* Bring a camera to capture the views from Galata Tower
-* Try some street food in the Karaköy neighborhood
+### Day 3: Princes' Islands and Yıldız Park
+* Morning: Take a ferry to the **Princes' Islands** (15 TRY per person) and explore the car-free streets and historic architecture.
+* Afternoon: Visit **Yıldız Park** (free admission), a beautiful green space with stunning views of the Bosphorus.
+* Evening: Enjoy a seafood dinner at a local restaurant, such as **Balikçi Sabahattin**.
+* Transportation: Use the ferry (15 TRY per person) to travel to the Princes' Islands.
+* Tips: Rent a bike to explore the Princes' Islands.
+* Budget Breakdown:
+	+ Accommodation: $375 (avg. $375 per night for 4 nights)
+	+ Food: $120 (avg. $30 per meal for 4 meals)
+	+ Transportation: $30 (avg. $7.50 per ride for 4 rides)
+	+ Attractions: $15 (avg. $3.75 per person for 4 attractions)
+	+ Miscellaneous: $50 (avg. $12.50 per person for souvenirs and incidentals)
+	Total: $590
 
-# Day 4: Princes' Islands
-## Daily Overview
-Take a day trip to the Princes' Islands.
-## Chronological Schedule
-* 9:00 AM: Take a ferry to the Princes' Islands (500 TL per person)
-* 10:30 AM: Explore the islands by bike or on foot (free admission)
-* 1:00 PM: Lunch at a local restaurant (100 TL per person)
-* 3:00 PM: Visit the Aya Yorgi Church (free admission)
-* 5:00 PM: Return to Istanbul by ferry (500 TL per person)
-* 7:30 PM: Dinner at a local restaurant (150 TL per person)
-## Estimated Costs
-* Ferry to Princes' Islands: 500 TL per person
-* Lunch: 100 TL per person
-* Aya Yorgi Church: free admission
-* Ferry back to Istanbul: 500 TL per person
-* Dinner: 150 TL per person
-* Total: 1250 TL per person
-## Local Transportation Recommendations
-* Use the ferry to get to the Princes' Islands (500 TL per person)
-* Bike or walk around the islands to explore the sites
-## Tips
-* Bring sunscreen and a hat when exploring the islands
-* Try some seafood at a local restaurant
-
-## Budget Breakdown
-* Accommodation: $500 (avg. $125 per night for 4 nights)
-* Food and drink: $300 (avg. $75 per day for 4 days)
-* Transportation: $100 (avg. $25 per day for 4 days)
-* Attractions and activities: $350 (avg. $87.50 per day for 4 days)
-* Total: $1250
+### Day 4: Belgrad Forest and Dolmabahce Palace
+* Morning: Visit the **Belgrad Forest** (free admission), a large and scenic forest with hiking trails and picnic areas.
+* Afternoon: Explore **Dolmab

@@ -1,56 +1,67 @@
 ### Accommodation Options in Istanbul
-After researching and considering various factors such as location, value for money, guest ratings, and amenities, I have compiled a list of top hotel recommendations in Istanbul for 2 travelers staying from 2025-04-07 to 2025-04-11 with a budget of approximately $1250 for the entire stay.
-
 #### Top Hotel Recommendations Ranked by Value
-1. **Hotel Amira Istanbul**
-	* Location: Sultanahmet, Istanbul
-	* Price: $450 for 4 nights (avg. $112.50 per night)
-	* Room Types: Double or Twin rooms
-	* Amenities: Free WiFi, breakfast buffet, fitness center, spa, and Turkish bath
-	* Guest Ratings: 9.2/10 on Booking.com, 4.5/5 on TripAdvisor
-	* Review Highlights: Excellent location, friendly staff, clean and comfortable rooms
-	* Pros: Central location, good value for money, excellent amenities
-	* Cons: Some rooms may be small, noise from the street
-2. **Hotel Sultania**
-	* Location: Sultanahmet, Istanbul
-	* Price: $500 for 4 nights (avg. $125 per night)
-	* Room Types: Double or Twin rooms
-	* Amenities: Free WiFi, breakfast buffet, fitness center, spa, and Turkish bath
-	* Guest Ratings: 9.1/10 on Booking.com, 4.5/5 on TripAdvisor
-	* Review Highlights: Excellent location, friendly staff, clean and comfortable rooms
-	* Pros: Central location, good value for money, excellent amenities
-	* Cons: Some rooms may be small, noise from the street
+
+The following hotel options are ranked by value, considering factors such as price, location, amenities, and guest reviews.
+
+1. **Hotel Sultan Palace**
+	* Price: $320 per night (avg.) for a double room
+	* Location: Sultanahmet, near Hagia Sophia and Blue Mosque
+	* Amenities: Free WiFi, breakfast buffet, fitness center, and spa
+	* Guest Rating: 4.5/5
+	* Review Highlights: "Excellent location, friendly staff, and clean rooms."
+	* Pros: Central location, comfortable rooms, and good value
+	* Cons: Limited parking options
+2. **Hotel Amira**
+	* Price: $280 per night (avg.) for a double room
+	* Location: Sultanahmet, near Topkapi Palace and Grand Bazaar
+	* Amenities: Free WiFi, breakfast buffet, fitness center, and rooftop restaurant
+	* Guest Rating: 4.5/5
+	* Review Highlights: "Great location, delicious breakfast, and helpful staff."
+	* Pros: Convenient location, tasty breakfast, and attentive staff
+	* Cons: Some rooms may be small
 3. **Hotel Yasmak Sultan**
-	* Location: Sultanahmet, Istanbul
-	* Price: $550 for 4 nights (avg. $137.50 per night)
-	* Room Types: Double or Twin rooms
-	* Amenities: Free WiFi, breakfast buffet, fitness center, spa, and Turkish bath
-	* Guest Ratings: 9.0/10 on Booking.com, 4.5/5 on TripAdvisor
-	* Review Highlights: Excellent location, friendly staff, clean and comfortable rooms
-	* Pros: Central location, good value for money, excellent amenities
-	* Cons: Some rooms may be small, noise from the street
-4. **Hotel Empress Zoe**
-	* Location: Sultanahmet, Istanbul
-	* Price: $400 for 4 nights (avg. $100 per night)
-	* Room Types: Double or Twin rooms
-	* Amenities: Free WiFi, breakfast buffet, fitness center, and Turkish bath
-	* Guest Ratings: 8.9/10 on Booking.com, 4.5/5 on TripAdvisor
-	* Review Highlights: Excellent location, friendly staff, clean and comfortable rooms
-	* Pros: Central location, good value for money, excellent amenities
-	* Cons: Some rooms may be small, noise from the street
-5. **Hotel Ibrahim Pasha**
-	* Location: Sultanahmet, Istanbul
-	* Price: $450 for 4 nights (avg. $112.50 per night)
-	* Room Types: Double or Twin rooms
-	* Amenities: Free WiFi, breakfast buffet, fitness center, and Turkish bath
-	* Guest Ratings: 8.8/10 on Booking.com, 4.5/5 on TripAdvisor
-	* Review Highlights: Excellent location, friendly staff, clean and comfortable rooms
-	* Pros: Central location, good value for money, excellent amenities
-	* Cons: Some rooms may be small, noise from the street
+	* Price: $350 per night (avg.) for a double room
+	* Location: Sultanahmet, near Basilica Cistern and Hagia Sophia
+	* Amenities: Free WiFi, breakfast buffet, fitness center, and spa
+	* Guest Rating: 4.5/5
+	* Review Highlights: "Excellent service, clean rooms, and great location."
+	* Pros: Friendly staff, comfortable rooms, and central location
+	* Cons: Limited parking options
+4. **Hotel DoubleTree by Hilton Istanbul - Old Town**
+	* Price: $300 per night (avg.) for a double room
+	* Location: Sultanahmet, near Grand Bazaar and Spice Bazaar
+	* Amenities: Free WiFi, breakfast buffet, fitness center, and rooftop bar
+	* Guest Rating: 4.5/5
+	* Review Highlights: "Great location, comfortable rooms, and friendly staff."
+	* Pros: Convenient location, comfortable rooms, and good value
+	* Cons: Some rooms may be small
+5. **Hotel Novotel Istanbul**
+	* Price: $250 per night (avg.) for a double room
+	* Location: Karakoy, near Galata Tower and Istanbul Modern
+	* Amenities: Free WiFi, breakfast buffet, fitness center, and rooftop restaurant
+	* Guest Rating: 4.5/5
+	* Review Highlights: "Great location, comfortable rooms, and good value."
+	* Pros: Convenient location, comfortable rooms, and affordable price
+	* Cons: Limited parking options
 
 #### Booking Recommendations
-Based on the options provided, **Hotel Amira Istanbul** offers the best value for money, with a total price of $450 for 4 nights and excellent guest ratings. However, if you prefer a more luxurious experience, **Hotel Sultania** or **Hotel Yasmak Sultan** may be more suitable, despite being slightly more expensive.
 
-Ultimately, the best option depends on your priorities and preferences. If budget is the primary concern, **Hotel Empress Zoe** or **Hotel Ibrahim Pasha** may be more suitable. If you prefer a more central location and excellent amenities, **Hotel Amira Istanbul**, **Hotel Sultania**, or **Hotel Yasmak Sultan** may be more suitable.
+1. Book **Hotel Sultan Palace** for its excellent location, comfortable rooms, and good value.
+2. Consider **Hotel Amira** for its convenient location, delicious breakfast, and attentive staff.
+3. Choose **Hotel Yasmak Sultan** for its friendly staff, comfortable rooms, and central location.
+4. Book **Hotel DoubleTree by Hilton Istanbul - Old Town** for its great location, comfortable rooms, and good value.
+5. Opt for **Hotel Novotel Istanbul** for its convenient location, comfortable rooms, and affordable price.
 
-It is recommended to book your accommodation in advance to ensure availability and to get the best rates. You can book your hotel through online booking platforms such as Booking.com, Expedia, or Hotels.com, or directly through the hotel's website.
+Please note that prices and availability may change, and it's always a good idea to research and book ahead to get the best deals.
+
+#### Budget Breakdown
+
+* Accommodation: $1,500 (avg. $375 per night for 4 nights)
+* Food: $800 (avg. $200 per day for 4 days)
+* Transportation: $200 (avg. $50 per day for 4 days)
+* Attractions: $500 (avg. $125 per day for 4 days)
+* Miscellaneous: $200 (avg. $50 per day for 4 days)
+
+Total budget: $3,200
+
+This budget breakdown should provide a comfortable and enjoyable trip to Istanbul, with some flexibility for additional expenses or changes in plans. However, please note that prices may vary depending on the time of year, demand, and other factors, so it's always a good idea to research and book ahead to get the best deals.
