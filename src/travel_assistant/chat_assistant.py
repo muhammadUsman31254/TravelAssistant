@@ -1,6 +1,6 @@
 # src/travel_assistant/chat_assistant.py
 import os
-from cerebras.cloud.sdk import Cerebras
+from groq import Groq
 from typing import Dict, Any
 
 class ChatAssistant:
@@ -17,7 +17,7 @@ class ChatAssistant:
             trip_data: Dictionary containing all trip information
         """
         self.trip_data = trip_data or {}
-        self.client = Cerebras(
+        self.client = Groq(
             api_key=os.environ.get("GROQ_API_KEY"),
         )
         self.chat_history = []
